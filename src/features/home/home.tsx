@@ -1,9 +1,9 @@
-import { NavigationHeader } from "../presentation/header/navigation_header"
+import { Apertura } from "../presentation/apertura/apertura"
 
 export const Home = () => {
   return (
     <div>
-      <NavigationHeader />
+      <Apertura />
     </div>
   )
 }

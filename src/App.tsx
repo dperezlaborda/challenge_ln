@@ -2,7 +2,6 @@ import './App.css'
 import { Home } from './features/home/home'
 
 function App() {
-
   return (
     <div>
       <Home />
