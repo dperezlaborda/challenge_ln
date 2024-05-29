@@ -1,6 +1,4 @@
-
 import { IconComponent } from './icon_component';
-
 interface ButtonComponentProps {
   label?: string;
   icon?: string;
@@ -9,7 +7,6 @@ interface ButtonComponentProps {
   border?: string;
   labelColor?: string;
 }
-
 
 export const ButtonComponent = ({
   label, 
