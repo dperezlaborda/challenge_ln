@@ -16,6 +16,8 @@ export default {
         'lg-logo': '306px',
         'lg-header-px': '53px',
         'xl-header-px': '330px',
+        '53px': '53px',
+        '138px': '138px',
         '224px':'224px',
         '450px': '450px',
       },
