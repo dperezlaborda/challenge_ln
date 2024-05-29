@@ -5,7 +5,7 @@ interface BadgeComponentProps {
   labelColor?: string;
 }
 
-export const BadgeComponent = ({
+const BadgeComponent = ({
   label,
   bgColor = 'bg-black-ln',
   labelColor = 'text-white-ln'
@@ -16,3 +16,5 @@ export const BadgeComponent = ({
     </div>
   )
 }
+
+export default BadgeComponent;
