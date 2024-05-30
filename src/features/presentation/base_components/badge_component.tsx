@@ -12,7 +12,7 @@ const BadgeComponent = ({
 }: BadgeComponentProps) => {
   return (
     <div className={`px-2 py-1 rounded-2xl gap-x-1 w-min ${bgColor}`}>
-      <p className={`uppercase text-xs text-center ${labelColor}`}>{label}</p>
+      <p className={`uppercase text-xs text-center ${labelColor} arial-typo`}>{label}</p>
     </div>
   )
 }

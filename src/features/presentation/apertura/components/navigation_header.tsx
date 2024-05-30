@@ -25,7 +25,7 @@ export const NavigationHeader = () => {
           <ButtonComponent label="ingresar" bgColor="bg-transparent" border="border border-blue-ln" labelColor="text-blue-ln"/>
         </div>
         <div className="flex items-center gap-x-6 lg:hidden">
-          <p className="text-xs uppercase text-blue-ln font-bold">suscribite</p>
+          <p className="text-xs uppercase text-blue-ln font-bold arial-typo">suscribite</p>
           <IconComponent icon={SearchIcon} w={'20px'} h={'20px'} />
         </div>
       </div>

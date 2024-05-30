@@ -1,17 +1,21 @@
 interface CardRegularTitleProps {
   lead: string;
   title: string;
-  className?: string
+  fontSize?: string
+  className?: string;
+  fontBold?: boolean;
 }
 
 const CardRegularTitle = ({
   lead,
   title,
-  className = 'xl'
+  fontSize = 'text-xl',
+  className = '',
+  fontBold = false
 }: CardRegularTitleProps) => {
   return (
-    <div className="flex py-2 px-4 gap-x-2">
-      <h3 className={`font-semibold text-${className}`}>
+    <div className={`flex gap-x-2 ${className}`}>
+      <h3 className={`${fontBold ? 'font-bold md:font-semibold' : 'font-semibold'} ${fontSize ?? 'text-xl'}`}>
         <span className="text-blue-ln">{lead}</span>
         {title}
       </h3>
