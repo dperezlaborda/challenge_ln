@@ -28,7 +28,7 @@ export const Focal = () => {
               <div className={index === 0 ? "md:pl-4 xl:pl-0" : "md:pr-4 xl:pr-0"}>
                 <CardRegular.Image
                   className={index === 0 ? "md:h-312px" : "md:h-156px"}
-                  alt=''
+                  alt={card.alt}
                 />
               </div>
               <div>
