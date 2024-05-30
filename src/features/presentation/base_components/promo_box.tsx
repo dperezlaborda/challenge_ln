@@ -5,7 +5,7 @@ export const PromoBox = ({title, description}: {title: string, description: stri
     <div className="flex border border-gray-ln p-4 gap-4">
       <div className="grid gap-2">
         <ImageComponent src={title} alt_img="Promo" height="22px" width="auto" />
-        <p className="">{description}</p>
+        <p className="text-base	arial-typo">{description}</p>
       </div>
     </div>
   )

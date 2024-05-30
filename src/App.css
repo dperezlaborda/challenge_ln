@@ -1,8 +1,14 @@
+@font-face {
+  font-family: 'SuecaSlab-Bold';
+  src: url('/fonts/suecaslab-bold.woff2') format('woff2');
+}
+
+body {
+  font-family: 'SuecaSlab-Bold', sans-serif;
+}
+
 .arial-typo {
     font-family: Arial, sans-serif !important;
 }
 
-body {
-    font-family: 'SuecaSlab-Bold';
-}
 

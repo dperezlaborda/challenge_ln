@@ -2,8 +2,12 @@ import { IconComponent } from '../../base_components/icon_component';
 import { ImageComponent } from '../../base_components/image_component';
 import clubLaNacionLogo from '../../../../assets/logo-club-ln.svg';
 import weatherIcon from '../../../../assets/iconos/wheater-icon.svg';
+import { Data } from '../../../types/weather_data';
 
-export const SubHeader = () => {
+export const SubHeader = ({ wheaterData } : {wheaterData : Data}) => {
+
+  const weather = wheaterData?.data?.timelines?.daily[0]?.values?.temperatureAvg ?? '20.00º';
+
   return (
     <div className="flex items-center justify-center h-10 px-4 py-1 md:justify-between lg:bg-gray-ln lg:py-2 lg:px-8 xl:px-xl-header-px">
       <div className="flex gap-x-4">
@@ -14,7 +18,7 @@ export const SubHeader = () => {
       <div className="hidden lg:flex">
         <div className="flex gap-x-2">
           <IconComponent icon={weatherIcon} w="22px" h="19px" />
-          <p className='text-sm arial-typo'><b>00.0°</b> Capital Federal</p>
+          <p className='text-sm arial-typo'><b>{weather}</b> Capital Federal</p>
         </div>
       </div>
       <div className="hidden lg:flex">

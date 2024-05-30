@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import ApiService from "../../core/api_service";
 
-export const useNotas = () => {
-    const [state, setState] = useState({
+export const useClima = () => {
+    const [clima, setClima] = useState({
       data: null,
       isLoading: true,
       error: false
@@ -11,14 +11,14 @@ export const useNotas = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await ApiService.get("/forecast?location=42.3478,-71.0466&apikey=X3A3jAw34uOG6K4NZ8QP2W9EUgrmkxXd");
-          setState({
-            data: response,
+          const response = await ApiService.get(`/forecast?location=34.6036,-58.3816`);
+          setClima({
+            data: response?.timelines,
             isLoading: false,
             error: false
           });
         } catch (error) {
-          setState({
+          setClima({
             data: null,
             isLoading: false,
             error: true
@@ -29,5 +29,11 @@ export const useNotas = () => {
       fetchData();
     }, []);
 
-    return state;
+    return {
+      clima : {
+        data: clima.data,
+        isLoading: clima.isLoading,
+        error: clima.error
+      }
+    };
   }

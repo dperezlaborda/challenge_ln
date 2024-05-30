@@ -2,14 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-@font-face {
-  font-family: 'SuecaSlab-Bold';
-  src: url('../src/fonts/suecaslab-bold.woff') format('woff');
-}
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
   background-color: '#fefefe';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
