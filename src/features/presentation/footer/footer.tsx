@@ -11,7 +11,7 @@ export const Footer = () => {
   const { linksLineOne, magazineLinks, wineClubLinks, shippingLinks } = FooterViewModel();
 
   return (
-    <footer className="mt-12 mb-8 grid place-items-center gap-y-8 lg:px-53px lg:place-items-start">
+    <footer className="mt-12 mb-8 grid place-items-center gap-y-8 lg:px-53px lg:place-items-start xl:px-80">
       {/* footer desktop start */}
       <div className="hidden lg:grid lg:grid-cols-3 lg:items-center lg:w-full">
         <Redes hidden={false}/>
