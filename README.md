@@ -20,9 +20,10 @@ Se implementó Compound Components pattern en la estructura del código, permiti
 
 | Pantalla 360px              | Pantalla 768px              |
 |-----------------------------|-----------------------------|
-| <img src="./phone.PNG" alt="Pantalla 360px" width="360"> | <img src="./tablet.png" alt="Pantalla 768px" width="768"> |
+| <img src="./phone.PNG" alt="Pantalla 360px" width="360"> | <img src="./tablet.png" alt="Pantalla 768px" width="100%"> |
 
 | Pantalla 1366px             | Pantalla 1920px             |
 |-----------------------------|-----------------------------|
-| <img src="./notebook.png" alt="Pantalla 1366px" width="1366"> | <img src="./desktop.png" alt="Pantalla 1920px" width="1920"> |
+| <img src="./notebook.png" alt="Pantalla 1366px" width="100%"> | <img src="./desktop.png" alt="Pantalla 1920px" width="100%"> |
+
 
