@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# La Nacion Challenge Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una recreación del diseño de la web de La Nación de manera mas resumida, siguiendo las especificaciones y la estética proporcionadas en Figma. Se maquetó aplicando el concepto de First Mobile para garantizar una experiencia óptima en diferentes dispositivos y tamaños de pantalla.
 
-Currently, two official plugins are available:
+Se implementó Compound Components pattern en la estructura del código, permitiendo una mayor flexibilidad y reutilización de componentes a lo largo del proyecto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Librerías y APIs
 
-- Configure the top-level `parserOptions` property like this:
+- **React Helmet**: Se utilizó para optimizar el SEO del proyecto. https://www.npmjs.com/package/react-helmet
+- **Axios**: https://www.npmjs.com/package/axios
+- **Tomorrow.io API**: Integra datos en tiempo real sobre el clima para proporcionar información actualizada. https://www.tomorrow.io/
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Capturas de Pantalla
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Pantalla 360px](./phone.PNG)
+![Pantalla 768](./tablet.png)
+![Pantalla 1366](./notebook/png)
+![Pantalla 1920](./desktop.png)
