@@ -1,0 +1,86 @@
+[
+  {
+    "link": "Últimas Notícias"
+  },
+  {
+    "link": "Politica"
+  },
+  {
+    "link": "Economia"
+  },
+  {
+    "link": "Sociedad"
+  },
+  {
+    "link": "Opinión"
+  },
+  {
+    "link": "Deportes"
+  },
+  {
+    "link": "Lifestyle"
+  },
+  {
+    "link": "Espectáculos"
+  },
+  {
+    "link": "Edición Impresa"
+  },
+  {
+    "link": "LN+"
+  },
+  {
+    "link": "Club LA NACION"
+  },
+  {"revistas": 
+    [
+      {
+        "link": "OHLALA"
+      },
+      {
+        "link": "¡HOLA!"
+      },
+      {
+        "link": "Rolling Stone"
+      },
+      {
+        "link": "LIVING"
+      },
+      {
+        "link": "BRANDO"
+      },
+      {
+        "link": "JARDIN"
+      },
+      {
+        "link": "LUGARES"
+      }
+    ]
+  },
+  { "clubDelVino": 
+    [
+      {
+        "link": "Bon Vivir"
+      }
+    ]
+  },
+  { "envios": 
+    [
+      {
+        "link": "HOP"
+      },
+      {
+        "link": "Colecciones"
+      },
+      {
+        "link": "Máster en periodismo"
+      },
+      {
+        "link": "Fundación LA NACION"
+      },
+      {
+        "link": "Avisos solidarios"
+      }
+    ]
+  }
+]

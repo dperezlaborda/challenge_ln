@@ -1,0 +1,56 @@
+[
+  {
+    "imagen_nota": null,
+    "volanta": "Infografía",
+    "titulo": "Descubren nueva especie de mariposa en la Amazonía",
+    "subtitulo": "Científicos han identificado una mariposa única en su género en la región amazónica, arrojando luz sobre la diversidad biológica de la selva tropical.",
+    "nombre_autor": "Luisa Pérez",
+    "imagen_autor": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Ftest%2F76403b1c-c0b6-478a-a84a-3e27e586abde.png?auth=f442aa976b20d46eaa34105a462f4d416b3d7510ff28c848e4fd3f5c00a12f81&width=80&quality=70&smart=false",
+    "url_nota": "https://www.lanacion.com.ar/politica/reforma-laboral-el-dictamen-del-senado-endurece-algunos-articulos-y-promueve-sanciones-por-bloqueos-nid31052024/"
+  },
+  {
+    "imagen_nota": "https://www.lanacion.com.ar/resizer/v2/este-viernes-se-registro-una-caida-de-los-5N374XFTDJFUXHKOY2RLQOBKKQ.jpg?auth=e50ee7d94214c245fae5fc1cf062592e06811e85b33515187c8269b3645185c8&width=420&height=280&quality=70&smart=true",
+    "volanta": "Opinión",
+    "titulo": "El futuro de la inteligencia artificial y su impacto en la sociedad",
+    "subtitulo": "¿Estamos preparados para los avances tecnológicos que se avecinan? Un análisis sobre los desafíos éticos y sociales que enfrentamos.",
+    "nombre_autor": "Juan Martínez",
+    "imagen_autor": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3050379.png?auth=cd434e2df0c5fa87e0b0cfc099c182da5c8a655d3a284fc37354c7a6380c492d&width=80&quality=70&smart=false",
+    "url_nota": "https://www.lanacion.com.ar/tecnologia/se-registro-una-caida-de-google-nid31052024/"
+  },
+  {
+    "imagen_nota": "https://www.lanacion.com.ar/resizer/v2/martin-demichelis-hace-oidos-sordos-al-repudio-de-XEALQYLWL5EGRMDNM6WPJOPC44.JPG?auth=0a36e14b058b21b578d519ae8cffd0b010eed51e8f19ec3e691f601552a988a2&width=880&height=586&quality=70&smart=true",
+    "volanta": "Deportes",
+    "titulo": "El equipo local avanza a la final del campeonato nacional",
+    "subtitulo": "Los aficionados celebran la victoria del equipo en un emocionante partido que asegura su lugar en la final del torneo.",
+    "nombre_autor": "Carlos Gómez",
+    "imagen_autor": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3050379.png?auth=cd434e2df0c5fa87e0b0cfc099c182da5c8a655d3a284fc37354c7a6380c492d&width=80&quality=70&smart=false",
+    "url_nota": "https://www.lanacion.com.ar/tecnologia/asi-se-veria-woody-de-toy-story-en-la-vida-real-segun-la-inteligencia-artificial-nid29052024/"
+  },
+  {
+    "imagen_nota": "https://www.lanacion.com.ar/resizer/v2/egresados-del-curso-asistente-en-el-arte-de-76P6ZXUGP5AGPPB4PBN6O2NJZA.jpg?auth=8479ed6114459e91e2ce16970a6f54ced3a03adae6f47682f7e408b4da20804b&width=880&height=586&quality=70&smart=true",
+    "volanta": "Cultura",
+    "titulo": "Nueva exposición de arte contemporáneo en el museo local",
+    "subtitulo": "Descubre las obras innovadoras de artistas locales y reconocidos internacionalmente en esta impresionante exhibición.",
+    "nombre_autor": "Ana López",
+    "imagen_autor": "https://ejemplo.com/autor4.jpg",
+    "url_nota": "https://www.lanacion.com.ar/el-mundo/donald-trump-culpable-en-las-redes-sociales-los-seguidores-del-expresidente-prometen-violentas-nid31052024/"
+  },
+  {
+    "imagen_nota": "https://www.lanacion.com.ar/resizer/v2/julio-cordero-secretario-de-OMR2RC3AZVDBJG6M74TWT5ZCUI.jpg?auth=0b4a0d3b0125ed676174ae45c6db6e884e914936f9031ae174989d822006fc06&width=880&height=586&quality=70&smart=true",
+    "volanta": "Política",
+    "titulo": "Debate presidencial: candidatos discuten sobre políticas económicas",
+    "subtitulo": "En un evento televisado, los candidatos presidenciales ofrecen sus puntos de vista sobre las medidas económicas para el próximo mandato.",
+    "nombre_autor": "María Fernández",
+    "imagen_autor": "https://ejemplo.com/autor5.jpg",
+    "url_nota": "https://www.lanacion.com.ar/politica/debate-presidencial-candidatos-discuten-politicas-economicas-nid31052024/"
+  },
+  {
+    "imagen_nota": "https://www.lanacion.com.ar/resizer/v2/el-que-abunda-estos-dias-es-la-especie-aedes-XLEUZ4TYJRHMFJZ6JLSYUS6UEI.png?auth=a0da4e93894c9ca48df7b8a631ed1de7303e48a5c10788f011ced295bd8469cd&width=880&height=586&quality=70&smart=true",
+    "volanta": "Internacional",
+    "titulo": "Ranking de calidad de vida: las ciudades mejor evaluadas del mundo",
+    "subtitulo": "Un estudio revela las ciudades con mejor calidad de vida basada en factores como seguridad, salud y medio ambiente.",
+    "nombre_autor": "Pedro González",
+    "imagen_autor": "https://ejemplo.com/autor6.jpg",
+    "url_nota": "https://www.lanacion.com.ar/el-mundo/ranking-calidad-vida-ciudades-mejor-evaluadas-mundo-nid31052024/"
+  }
+]

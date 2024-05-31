@@ -11,7 +11,7 @@ export const useClima = () => {
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await ApiService.get(`/forecast?location=34.6036,-58.3816`);
+          const response = await ApiService.getWeather(`/forecast?location=34.6036,-58.3816`);
           setClima({
             data: response?.timelines,
             isLoading: false,

@@ -21,8 +21,12 @@ export default {
         '138px': '138px',
         '156px': '156px',
         '224px':'224px',
+        '240px': '240px',
         '312px': '312px',
+        '373px': '373px',
         '450px': '450px',
+        '768px': '768px',
+        '855px': '855px',
       },
       colors: {
         'blue-ln':'#0250C9',
@@ -39,7 +43,11 @@ export default {
         'button-border': '#E4E4E4',
         'black-opacity-0': 'rgba(0, 0, 0, 0)',
         'black-opacity-80': 'rgba(0, 0, 0, 0.8)',
-      }
+        'no-image': '#f3f4f6'
+      },
+      fontFamily: {
+        'suecaslab-medium': ['SuecaSlab-Medium', 'sans-serif']
+      },
     },
   },
   plugins: [],

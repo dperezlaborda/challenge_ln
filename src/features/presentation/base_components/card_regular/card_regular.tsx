@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, Suspense } from 'react';
 
 const Image = React.lazy(() => import('./components/card_regular_image'));
 const Title = React.lazy(() => import('./components/card_regular_title'));
@@ -10,7 +10,9 @@ const Error = React.lazy(() => import('./components/card_error'));
 export const CardRegular = ({ children, className = '' } : { children: ReactElement | ReactElement[], className?: string }) => {
     return(
         <div className={`w-full ${className}`}>
-            {children}
+            <Suspense fallback={<div>Loading...</div>}>
+                {children}
+            </Suspense>
         </div>
     )
 }

@@ -3,12 +3,23 @@
   src: url('/fonts/suecaslab-bold.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'SuecaSlab-Medium';
+  src: url('/fonts/suecaslab-medium.woff2') format('woff2');
+}
+
 body {
   font-family: 'SuecaSlab-Bold', sans-serif;
 }
 
 .arial-typo {
-    font-family: Arial, sans-serif !important;
+  font-family: Arial, sans-serif !important;
 }
+
+.sueca-medium {
+  font-family: 'SuecaSlab-Medium', sans-serif;
+}
+
+
 
 

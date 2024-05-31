@@ -16,7 +16,7 @@ const CardRegularTitle = ({
   return (
     <div className={`flex gap-x-2 ${className}`}>
       <h3 className={`${fontBold ? 'font-bold md:font-semibold' : 'font-semibold'} ${fontSize ?? 'text-xl'}`}>
-        <span className="text-blue-ln">{lead}</span>
+        <span className="text-blue-ln pr-1">{lead}.</span>
         {title}
       </h3>
     </div>

@@ -1,17 +1,20 @@
-export interface CardRegularImageProps {
-  src?: string;
-  className?: string;
-  alt: string;
-}
+import { CardRegularImageProps } from "../../../../interfaces/interfaces";
+import CardError from "./card_error";
 
 const CardRegularImage = ({
   src,
   className = '',
   alt,
+  height,
+  width
 }: CardRegularImageProps) => {
   return (
-    <div className={`relative border border-gray-ln h-60 bg-blue-200 ${className}`}>
-      <img className="absolute top-0 left-0 w-full h-full object-cover" src={src ? src : 'no image'} alt={alt} />
+    <div className={`relative flex justify-center items-center border border-gray-ln h-60 bg-no-image ${className}`}>
+      { src ? (
+        <img className="absolute top-0 left-0 w-full h-full object-cover" src={src} alt={alt} style={{height: height, width: width}}/>
+      ) : (
+        <CardError />
+      )}
     </div>
   );
 }
