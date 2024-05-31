@@ -27,7 +27,7 @@ export const Footer = () => {
           shippingLinks={shippingLinks?.envios}
         />
       </div>
-      <Divider hidden={false} />
+      <Divider hidden={true} />
       <div className="hidden lg:flex lg:w-full lg:justify-between">
         <ul className="flex gap-x-6">
           <li className="text-sm text-blue-ln arial-typo">Mapa del sitio</li>
