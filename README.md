@@ -18,7 +18,10 @@ Se implementó Compound Components pattern en la estructura del código, permiti
 
 ## Capturas de Pantalla
 
-![Pantalla 360px](./phone.PNG)
-![Pantalla 768](./tablet.png)
-![Pantalla 1366](./notebook/png)
-![Pantalla 1920](./desktop.png)
+| Pantalla 360px              | Pantalla 768px              |
+|-----------------------------|-----------------------------|
+| ![Pantalla 360px](./phone.PNG) | ![Pantalla 768px](./tablet.png) |
+
+| Pantalla 1366px             | Pantalla 1920px             |
+|-----------------------------|-----------------------------|
+| ![Pantalla 1366px](./notebook.png) | ![Pantalla 1920px](./desktop.png) |
