@@ -1,8 +1,11 @@
 # La Nacion Challenge Frontend
-DEMO: https://challenge-ln-beta.vercel.app/
+
 Este proyecto es una recreación del diseño de la web de La Nación de manera mas resumida, siguiendo las especificaciones y la estética proporcionadas en Figma. Se maquetó aplicando el concepto de First Mobile para garantizar una experiencia óptima en diferentes dispositivos y tamaños de pantalla.
 
 Se implementó Compound Components pattern en la estructura del código, permitiendo una mayor flexibilidad y reutilización de componentes a lo largo del proyecto.
+
+# DEMO: 
+https://challenge-ln-beta.vercel.app/
 
 ## Tecnologías Utilizadas
 
