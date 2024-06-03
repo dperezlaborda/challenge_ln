@@ -6,7 +6,7 @@ export const Opinion = ({ data } : { data: MockDataType[] }) => {
   return (
     <div className='mt-12'>
     <SectionTitleComponent title="Opinión" />
-      <div className='mt-10 px-5 grid grid-cols-1 md:grid-cols-3 gap-4 lg:px-53px xl:px-80'>
+      <div className='px-5 grid grid-cols-1 md:grid-cols-3 gap-4 lg:px-53px xl:px-80'>
         {data.map((card, index) => (
           <CardRegular
           key={index}
