@@ -1,9 +1,17 @@
 
 
-const HeroFooter = ({ author, textColor = 'text-gray-ln'}: { author: string, textColor?: string}) => {
+const HeroFooter = ({ 
+  author,
+  textColor = 'text-gray-ln',
+  className = '' 
+}: { 
+  author: string,
+  textColor?: string,
+  className?: string
+}) => {
   return (
-    <div>
-      <h3 className={`text-sm font-bold ${textColor} arial-typo`}>{author}</h3>
+    <div className={className}>
+      <h4 className={`text-sm font-bold ${textColor} arial-typo`}>{author}</h4>
     </div>
   )
 }

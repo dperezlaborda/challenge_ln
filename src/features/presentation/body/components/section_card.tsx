@@ -8,9 +8,9 @@ export const SectionCard = ({ data } : { data: MockDataType[] }) => {
   return (
     <div className="mt-12">
       <SectionTitleComponent title="Card Group x 6" />
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 md:px-4 lg:px-53px xl:px-80">
+      <div className="grid grid-cols-1 gap-y-8 md:grid-cols-3 md:gap-4 md:px-4 lg:px-53px xl:px-80">
         {data.map((card, index) => (
-          <CardRegular className="mt-8" key={index}>
+          <CardRegular key={index}>
             <CardRegular.Image 
               alt=''
               src={card.imagen_nota}
@@ -22,9 +22,11 @@ export const SectionCard = ({ data } : { data: MockDataType[] }) => {
               lead={card.volanta || "N/A"} 
               title={card.titulo} 
             />
-            <div className="mt-2 px-4 md:px-0">
-              <CardRegular.Footer textColor="text-button-text" author={card.nombre_autor} />
-            </div>
+            <CardRegular.Footer 
+              className="mt-2 px-4 md:px-0" 
+              textColor="text-button-text" 
+              author={card.nombre_autor}
+            />
           </CardRegular>
         ))}
       </div>

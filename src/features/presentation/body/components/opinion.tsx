@@ -15,7 +15,8 @@ export const Opinion = ({ data } : { data: MockDataType[] }) => {
             <CardRegular.Title 
               lead={card.volanta || 'N/A'} 
               title={card.titulo || 'N/A'}
-              fontBold
+              className='fontbold md:font-normal'
+              fontSize='md:text-lg'
             />
             <CardRegular.FooterImg
               author={card.nombre_autor}

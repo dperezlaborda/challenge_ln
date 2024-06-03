@@ -36,12 +36,11 @@ export const Focal = ({ data, isLoading, error }: FocalProps ) => {
                       title={card.titulo}
                     />
                     {index === 0 && <CardRegular.Subtitle />}
-                    <div className={index == 0 ? "px-4 md:pb-2 xl:px-0 xl:py-2" : "px-4 md:px-0" }>
-                      <CardRegular.Footer 
-                        author={card.nombre_autor || "N/A"} 
-                        textColor="text-button-text"
-                      />
-                    </div>
+                    <CardRegular.Footer
+                      className={index == 0 ? "px-4 md:pb-2 xl:px-0 xl:py-2" : "px-4 md:px-0" }
+                      author={card.nombre_autor || "N/A"} 
+                      textColor="text-button-text"
+                    />
                   </div>
                 </CardRegular>
               </Suspense>
