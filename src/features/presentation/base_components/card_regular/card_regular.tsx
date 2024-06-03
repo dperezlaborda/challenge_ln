@@ -7,13 +7,23 @@ const Footer = React.lazy(() => import('../hero/components/hero_footer'));
 const FooterImg = React.lazy(() => import('./components/card_regular_footer_img'));
 const Error = React.lazy(() => import('./components/card_error'));
 
-export const CardRegular = ({ children, className = '' } : { children: ReactElement | ReactElement[], className?: string }) => {
+export const CardRegular = ({ 
+    children,
+    className = '',
+    href
+} : { 
+    children: ReactElement | ReactElement[], 
+    className?: string,
+    href: string
+}) => {
     return(
-        <div className={`w-full ${className}`}>
+        <article className={`w-full ${className}`}>
             <Suspense fallback={<div>Loading...</div>}>
-                {children}
+                <a href={href}>
+                    {children}
+                </a>
             </Suspense>
-        </div>
+        </article>
     )
 }
 

@@ -20,7 +20,10 @@ export const Focal = ({ data, isLoading, error }: FocalProps ) => {
         {data?.map((card, index) => (
             <div key={index} className={index === 0 ? "md:col-span-2 md:row-span-2" : "md:col-span-1 md:row-span-1"}>
               <Suspense fallback={<div>Loading...</div>}>
-                <CardRegular className={index === 0 ? "md:flex md:flex-col-reverse" : ""}>
+                <CardRegular
+                  href={card.url_nota}
+                  className={index === 0 ? "md:flex md:flex-col-reverse" : ""}
+                >
                   <div className={index === 0 ? "md:pl-4 xl:pl-0" : "md:pr-4 xl:pr-0"}>
                     <CardRegular.Image
                       className={index === 0 ? "md:h-312px xl:h-373px" : "md:h-156px"}

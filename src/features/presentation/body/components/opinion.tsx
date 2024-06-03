@@ -9,8 +9,9 @@ export const Opinion = ({ data } : { data: MockDataType[] }) => {
       <div className='px-5 grid grid-cols-1 md:grid-cols-3 gap-4 lg:px-53px xl:px-80'>
         {data.map((card, index) => (
           <CardRegular
-          key={index}
-          className='border border-button-border p-4 gap-y-2 flex flex-col items-center text-center md:text-start md:items-start'
+            href={card.url_nota}
+            key={index}
+            className='border border-button-border p-4 gap-y-2 flex flex-col items-center text-center md:text-start md:items-start'
           >
             <CardRegular.Title 
               lead={card.volanta || 'N/A'} 
